@@ -1,8 +1,3 @@
-forms_count: 19383
-all: 384513
-5o%: 143
-hapax_legomena: 7626
-
 on 18294
 i 13316
 siebie 10196
