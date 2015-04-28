@@ -7,8 +7,10 @@ statistics = collections.Counter(dict(cout_list))
 stat_sorted = statistics.most_common()
 
 # print whole list
+i = 1
 for (elem, count) in stat_sorted:
-    print(elem + u' ' + str(count))
+    print(elem + u',' + str(i) + u',' + str(count))
+    i += 1
 
 # calculate stats
 forms_count = len(statistics)
